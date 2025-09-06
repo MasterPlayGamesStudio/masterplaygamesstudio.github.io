@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Master Play Games — Fun. Fast. Addictive.</title>
+<meta name="description" content="Master Play Games builds polished, fast, and fun mobile games. Download our latest titles from Google Play.">
+<meta property="og:title" content="Master Play Games">
+<meta property="og:description" content="We build mobile games loved by players worldwide.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/img/logo.svg">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<nav>
+  <div class="container navbar">
+    <a class="brand" href="/"><img src="assets/img/logo.svg" alt="logo"><span data-company>Master Play Games</span></a>
+    <div class="menu">
+      <a href="#games">Games</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a class="btn" href="https://play.google.com/store/apps/dev?id=YOUR_DEV_ID" target="_blank" rel="noopener">Get our Games</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container hero-inner">
+    <div>
+      <h1>Fun. Fast. <span style="color:var(--primary)">Addictive.</span></h1>
+      <p>We build polished, fast, and fun mobile games loved by players worldwide.</p>
+      <div class="badges">
+        <a class="btn" href="https://play.google.com/store/apps/dev?id=YOUR_DEV_ID" target="_blank" rel="noopener">Google Play</a>
+        <a class="btn ghost" href="https://youtube.com/@masterplaygames" target="_blank" rel="noopener">YouTube</a>
+      </div>
+    </div>
+    <div class="card">
+      <img src="assets/img/game_shooting_master_world.svg" alt="Hero game screenshot">
+    </div>
+  </div>
+</header>
+
+<section class="section" id="games">
+  <div class="container">
+    <h2>Our Games</h2>
+    <p>Crafted with performance, polish, and player joy.</p>
+    <div id="games-grid" class="grid grid-3" style="margin-top:14px;"></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split">
+    <div>
+      <h2>Why Players Choose <span data-company>Master Play Games</span></h2>
+      <ul class="list">
+        <li>Optimized for low-end and flagship Android devices</li>
+        <li>Engaging loops, fair rewards, and balanced difficulty</li>
+        <li>Regular updates, events, and new content</li>
+      </ul>
+    </div>
+    <div class="card"><img src="assets/img/game_slingshot_master.svg" alt="Gameplay collage"></div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="flex" style="justify-content:space-between;flex-wrap:wrap">
+      <div class="flex">
+        <img src="assets/img/logo.svg" alt="logo" width="28" height="28">
+        <strong style="margin-left:6px" data-company>Master Play Games</strong>
+      </div>
+      <div class="flex">
+        <a href="privacy.html">Privacy</a>
+        <span style="opacity:.4">|</span>
+        <a href="terms.html">Terms</a>
+      </div>
+    </div>
+    <small>© <span id="year"></span> Master Play Games. All rights reserved.</small>
+  </div>
+</footer>
+
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

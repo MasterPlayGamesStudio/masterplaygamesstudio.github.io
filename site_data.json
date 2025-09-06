@@ -1,0 +1,37 @@
+{
+  "company_name": "Master Play Games",
+  "tagline": "Fun. Fast. Addictive.",
+  "description": "We build polished, fast, and fun mobile games loved by players worldwide.",
+  "primary_color": "#0ea5e9",
+  "secondary_color": "#111827",
+  "email": "support@masterplaygames.com",
+  "play_store_link": "https://play.google.com/store/apps/dev?id=YOUR_DEV_ID",
+  "youtube_link": "https://youtube.com/@masterplaygames",
+  "facebook_link": "https://facebook.com/masterplaygames",
+  "x_link": "https://x.com/masterplaygames",
+  "discord_link": "https://discord.gg/YOUR_INVITE",
+  "address": "Hyderabad, India",
+  "games": [
+    {
+      "title": "Shooting Master World \u2013 Gun",
+      "slug": "shooting-master-world",
+      "short": "Become a pro shooter in thrilling challenges.",
+      "store": "https://play.google.com/store/apps/details?id=com.masterplaygames.shootingmasterworld",
+      "img": "game_shooting_master_world.jpg"
+    },
+    {
+      "title": "Slingshot Master: 3D Shooter",
+      "slug": "slingshot-master-3d",
+      "short": "Aim, pull, release\u2014knock them all down!",
+      "store": "https://play.google.com/store/apps/details?id=com.masterplaygames.slingshotmaster",
+      "img": "game_slingshot_master.jpg"
+    },
+    {
+      "title": "City Bus Duty Simulator",
+      "slug": "city-bus-duty-simulator",
+      "short": "Drive, pick passengers, and follow traffic rules.",
+      "store": "https://play.google.com/store/apps/details?id=com.masterplaygames.citybusdutysimulator",
+      "img": "game_city_bus.jpg"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://masterplaygames.github.io/sitemap.xml

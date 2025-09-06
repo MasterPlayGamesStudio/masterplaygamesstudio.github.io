@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Master Play Games</title>
+<link rel="icon" href="assets/img/logo.svg">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<nav>
+  <div class="container navbar">
+    <a class="brand" href="/"><img src="assets/img/logo.svg" alt="logo"><span data-company>Master Play Games</span></a>
+    <div class="menu">
+      <a href="index.html#games">Games</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<section class="section">
+  <div class="container">
+    <h1>Contact</h1>
+    <p>We’d love to hear from you. For support, media, or business inquiries, use the form below or email us at <a href="mailto:support@masterplaygames.com">support@masterplaygames.com</a>.</p>
+    <form name="contact" onsubmit="event.preventDefault(); alert('Thanks! This is a static demo form. Connect it to Formspree/Netlify/Firebase to receive messages.');">
+      <div class="row split">
+        <div>
+          <label>Name</label>
+          <input required placeholder="Your name">
+        </div>
+        <div>
+          <label>Email</label>
+          <input type="email" required placeholder="you@example.com">
+        </div>
+      </div>
+      <div class="row">
+        <label>Message</label>
+        <textarea rows="6" required placeholder="How can we help?"></textarea>
+      </div>
+      <button class="btn" type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+</body>
+</html>
